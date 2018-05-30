@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    background-color: #003B4C;
+}
+
+h1 {
+    padding: 1rem;
+    margin: 0;
+    color: #F79020;
+}
+
+main {
+    padding: 1rem;
+}
+.form-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    max-width: 20rem;
+}
+
+input, #card-element {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #999;
+}
+
+input[type=submit] {
+    background-color: hsl(140, 50%, 50%);
+    color: #fff;
+    font-weight: 700;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+}
+input[type=submit]:hover {
+    background-color: hsl(140, 50%, 60%);
+}
